@@ -6,7 +6,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "backup-config-terraform-tfstate-lucky1225"
+    bucket = "ramasrinivasbatch7/Ram_terraform/"
     key    = "vpc/terraform.tfstate"
     region = "ap-south-1"
   }
